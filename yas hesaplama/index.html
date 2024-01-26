@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="baslik text-center p-1 pt-4 fw-bold">YAŞ HESAPLAMA</h1>
+        <div class="yas pt-5 p-5">
+            <div class="input-group mb-5">
+                <div class="w-25 px-2">
+                    <span class="fw-bold fs-5">DAY</span>
+                    <input type="text" class=" fw-bold d-block p-3 rounded-3 border border-2 fs-5 w-100" id="day">
+                </div>
+                <div class="w-25 px-2">
+                    <span class="fw-bold fs-5">MONTH</span>
+                    <input type="text" class=" fw-bold d-block p-3 rounded-3 border border-2 fs-5 w-100" id="month">
+                </div>
+                <div class="w-25 px-2">
+                    <span class="fw-bold fs-5">YEAR</span>
+                    <input type="text" class="fw-bold d-block p-3 rounded-3 border border-2 fs-5 w-100" id="year">
+                </div>
+                <div class="pt-3 px-4">
+                    <p></p>
+                    <button class="btn1 px-4 p-3 fw-bold fs-5 bg-primary" onclick="hesapla()" >HESAPLA</button>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row g-0">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="sonuc2 d-flex">
+                        <p class="sayi px-2" id="sayi1">--</p>
+                        <p class="yazi fw-bold px-2">years</p>
+                    </div>
+                    <div class="sonuc2 d-flex">
+                        <p class="sayi px-2" id="sayi2">--</p>
+                        <p class="yazi fw-bold px-2">months</p>
+                    </div>
+                    <div class="sonuc2 d-flex">
+                        <p class="sayi px-2" id="sayi3">--</p>
+                        <p class="yazi fw-bold px-2">days</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <p class="sonuc p-4 pt-5 fw-bold" id="sonuc"></p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

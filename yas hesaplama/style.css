@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(233, 231, 229) !important;
+}
+
+.container {
+    width: 50% !important;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    border-radius: 10px 10px 140px 10px;
+
+
+}
+
+.yazi {
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+
+}
+
+.sayi {
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(150, 99, 243);
+
+}
+
+.sonuc {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(150, 99, 243);
+
+}
+
+.input-group {
+    flex-wrap: nowrap !important;
+}
+
+.btn1:hover {
+    background-color: rgb(150, 99, 243) !important;
+    color: white;
+
+}
