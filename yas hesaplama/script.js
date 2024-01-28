@@ -18,11 +18,9 @@ function hesapla() {
     const days = Math.floor(yilDate.getDate() - day);
 
 
-
     document.getElementById("sayi1").innerText = years;
     document.getElementById("sayi2").innerText = months;
     document.getElementById("sayi3").innerText = days;
-
 
 
     if (years < 18) {
@@ -35,16 +33,5 @@ function hesapla() {
         sonuc.innerText = "YAŞLI BİR BİREYSİNİZ";
     } else {
         sonuc.innerText = "ÖLMÜŞ OLMANIZ GEREKİYOR";
-    }
-
-
-
-
-
-
-
-
-
-
-    
+    }    
 }
